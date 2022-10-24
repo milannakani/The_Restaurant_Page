@@ -3,7 +3,7 @@ function createHome () {
     home.classList.add("home");
 
     const mainImage = document.createElement("img");
-    mainImage.src = "./dist/images/home.jpg"
+    mainImage.src = "images/home.jpg"
     mainImage.alt = "mainImage";
 
 home.appendChild(creatPara("Best Place to Eat Gujarati Food"));

@@ -34,7 +34,7 @@ function menuItem (name,description) {
     
     
     const foodImage = document.createElement("img");
-    foodImage.src = `dist/images/${name.toLowerCase()}.jpg`;
+    foodImage.src = `images/${name.toLowerCase()}.jpg`;
     foodImage.alt = `${name}`;
 
     item.appendChild(foodImage)
