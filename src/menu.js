@@ -17,11 +17,6 @@ function creatMenu () {
         "made from milk and cheese, sweet dish"
         )
         );
-    menu.appendChild(menuItem(
-        "Fafda",
-        "made from checkpeas flour, long stics fried in oil"
-        )
-        );
 
     return menu;
 }
@@ -39,8 +34,8 @@ function menuItem (name,description) {
     
     
     const foodImage = document.createElement("img");
-    foodImage.src = "";
-    foodImage.alt = "";
+    foodImage.src = `dist/images/${name.toLowerCase()}.jpg`;
+    foodImage.alt = `${name}`;
 
     item.appendChild(foodImage)
     item.appendChild(foodName);
