@@ -59,11 +59,10 @@
   
   /* Content */
   
-  .content {
+  #content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     height: 100vh;
   }
   
@@ -111,6 +110,9 @@
     font-size: 2rem;
     background-color: var(--background-light);
     border: 1px solid var(--border-color);
+    
+    
+
   }
   
   /* Home page */
